@@ -117,6 +117,10 @@ header i:hover{
   #css {width: 80%; background-color: #2196F3;}
   #js {width: 65%; background-color: #f44336;}
   #php {width: 60%; background-color: #808080;}
+
+  section h4{
+    padding: 20px;
+  }
   
   /* Responsive layout - make the columns stack on top of each other instead of next to each other */
   @media (max-width: 400px) {
@@ -125,5 +129,10 @@ header i:hover{
     }
     nav  .right {
       display: none;
+    }
+  }
+  @media (max-width: 1000px) {
+    #multiCollapseExample1{
+      margin-bottom: 10px;
     }
   }
